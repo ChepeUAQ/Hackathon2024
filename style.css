@@ -1,31 +1,183 @@
-body{
-    background-color: blue;
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.contenedorgeneral{
+
+.container_ingreso {
+    width: 90%;
     margin: auto;
-    width: 80%;
+}
+
+img {
+    max-width: 20px;
+}
+
+#nav img {
+    filter: invert(100);
+}
+
+#todo {
+    width: 100%;
+    height: 100vh;
+}
+
+#nav {
+    background-color: #9FD4FE;
+    
+    width: 20%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;   
+    
+    position: fixed; 
+    height: 100vh;
+    overflow-y: auto;
 }
-.contenedorusuario{
-    text-align: center;
-    margin: auto;
-    width: 80%;
-    background-color: aqua;
+
+#nav .opcion {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#nav .opcion:hover {
+    background-color: #0c2445;
+    transform: scale(1.05);
+}
+
+#nav .primero {
+    margin-top: 80px;
+}
+
+#nav .cerrar_sesion {
+    margin-top: 60px;
+}
+
+main {
+    padding: 30px 20px 0 calc(20% + 40px);
+}
+
+main #header_main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9FD4FE;
+    opacity: 50%;
+}
+
+main #header_main h1 {
+    font-size: 50px;
+    opacity: 100%;
+}
+
+main #header_main button {
+    line-height: 0;
+    margin-right: 20px;
+    height: 30px;
+    padding: 20px;
+    color: white;
+    background-color: #0c2445;
+    border: solid 1px #0c2445;
+    border-radius: 7px;
+}
+
+main #header_main button:hover {
+    background-color: #0c2445;
+    border: solid 1px #0c2445;
+    transform: scale(1.05);
+}
+
+#tabla_container {
     margin-top: 50px;
+    min-height: 200vh;
 }
-.contenedorusuario img{
+
+table {
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+.td_img {
+    font-size: 12px;
+}
+
+.td_btns {
+    display: flex;
+    border: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.td_btns button {
+    margin-top: 5px;
+}
+
+#recordatorio {
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 20%;
+    padding: 20px 80px 20px 20px;
+    background-color: #9fd4ff;
+    color: #000000;
+    font-size: 12px;
+}
+
+/* Estilos específicos para estadoPedidos */
+
+#header_main p {
+    line-height: 80px;
+}
+
+#recordatorio ul img {
+    border: solid 1px black;
+    border-radius: 100%;
+    max-width: 12px;
+}
+
+/* Estilos para el contenedor principal */
+#contenido {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#clientes_input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+
+/*estilos de generar facturas*/
+.contenedor-grande {
+    display: grid;
+    justify-content: space;
     align-items: center;
 
-    justify-content: center;
-    margin: 40px 0;
-    padding: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
 }
-.contenedorusuario button{
-   margin-top: 20px;
-   margin-bottom: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    width: 50%;
+.contenedor-divs{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #D9D9D9;
 }
+.contenedor-divs input{
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
