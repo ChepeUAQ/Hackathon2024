@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estado de Pedidos</title>
+</head>
+<body>
+
+    <div id="todo">
+        <nav id="nav">
+            <a href="estadoPedidos.html" class="opcion primero">Estado de pedidos</a>
+            <a href="facturas.html" class="opcion">Facturas</a>
+            <a href="" class="opcion">Generar Factura</a>
+            <a href="" class="opcion">Directorio</a>
+            <a href="" class="opcion cerrar_sesion"><img src="imgs/log-out.svg" alt=""></a>
+        </nav>
+    
+        <main>
+            <section id="header_main">
+                <h1>Estado de Pedidos</h1>
+            </section>
+    
+            <input type="text" name="" id="busqueda_pedido" placeholder="No. de Emabargo">
+    
+            <section id="tabla_container">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>No. de Embargo</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(102, 102, 255);"></td>
+                        <td>495241</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(255, 55, 55);"></td>
+                        <td>526381</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(42, 137, 42);"></td>
+                        <td>213431</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(42, 137, 42);"></td>
+                        <td>561728</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(196, 196, 18);"></td>
+                        <td>901102</td>
+                        <td class="td_btns"><button><img src="imgs/eye.svg" alt="ver"></button></td>
+                    </tr>
+                </table>
+            </section>
+
+        </main>
+
+        <section id="recordatorio">
+            <b>Nomenclatura de colores</b>
+            <ul>
+                <li><img src="imgs/blue-circle.svg" alt=""> No enviado</li>
+                <li><img src="imgs/yellow-circle.svg" alt=""> En camino</li>
+                <li><img src="imgs/green-circle.svg" alt=""> Entregado</li>
+                <li><img src="imgs/red-circle.svg" alt=""> Con demora</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
