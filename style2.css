@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+.contenedorgeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    
+}
+.contenedorusuario{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.contenedorusuario img{
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 30px;
+}
+.contenedorusuario label{
+    font-size: 22px;
+    
+    
+    
+}
+.contenedorusuario input{
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenedorusuario button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 25%;
+    height: 10%;
+}
