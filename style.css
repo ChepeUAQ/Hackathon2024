@@ -103,6 +103,9 @@ th {
 
 .td_img {
     font-size: 12px;
+    align-items: center;
+    text-align: center;
+
 }
 
 .td_btns {
