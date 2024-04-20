@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hackathon</title>
+</head>
+<body>
+
+    <div id="todo">
+        <nav id="nav">
+            <img src="imgs/LogLipy.png" alt="">
+            <a href="estadoPedidos.html" class="opcion primero">Estado de pedidos</a>
+            <a href="facturas.html" class="opcion">Facturas</a>
+            <a href="generarFactura.html" class="opcion">Generar Factura</a>
+            <a href="" class="opcion" style="background-color: #0c2445;">Directorio</a>
+            <a href="index.html" class="opcion cerrar_sesion"><img src="imgs/log-out.svg" alt=""></a>
+        </nav>
+
+        <main>
+            <section id="header_main">
+                <h1>Directorio</h1>
+                
+            </section>
+                <br> 
+            <input type="text" name="" id="busqueda_pedido" placeholder="Buscar">
+
+            <section id="tabla_container">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Cliente</th>
+                        <th>Nombre</th>
+                        <th>Teléfono</th>
+                        <th>Correo electrónico</th>
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starfull.png" alt="documento"> </td>
+                        <td>Everton</td>
+                        <td>Juan Peréz Hernández</td>
+                        <td>8432310278</td>
+                        <td>perezjuan@everton.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Saarbrucken </td>
+                        <td>Felipe Baloy</td>
+                        <td>4567834590</td>
+                        <td>baloyfelipe@saar.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Villarreal GC</td>
+                        <td>Héctor Altamirano</td>
+                        <td>4421746357</td>
+                        <td>altamiranohec@villagc.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starfull.png" alt="documento"> </td>
+                        <td>Minerales de la Laguna</td>
+                        <td>Harold Preciado</td>
+                        <td>4463527659</td>
+                        <td>preciadoharold@laguna.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Refrigerados Celaya</td>
+                        <td>José Javier Abella</td>
+                        <td>7163846290</td>
+                        <td>abellajose@refricelaya.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Munchen Hauling</td>
+                        <td>Carlos Acevedo</td>
+                        <td>4174628754</td>
+                        <td>acevedocarlos@munchen.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starfull.png" alt="documento"> </td>
+                        <td>Petroleros de Salamanca</td>
+                        <td>Alma Citlalli Gonzalez</td>
+                        <td>4628342654</td>
+                        <td>gonzalezcitalli@sala.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>El Gallo Blanco</td>
+                        <td>Maria Fernanda López González</td>
+                        <td>4483625473</td>
+                        <td>lopezfernanda@blanco.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starfull.png" alt="documento"> </td>
+                        <td>Chepe</td>
+                        <td>Noe Peralta Dominguez</td>
+                        <td>4327564328</td>
+                        <td>peraltanoe@chepe.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Bayer AGH</td>
+                        <td>Hugo Sanchez</td>
+                        <td>4326437865</td>
+                        <td>sanchezhugo@bayeragh.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Oftamologias Lindavista</td>
+                        <td>Juan Ignacio Dinneno</td>
+                        <td>4357629874</td>
+                        <td>dinnenojuan@lindavista.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td>Strawberrys Hills</td>
+                        <td>Darwin Quintero</td>
+                        <td>4654198076</td>
+                        <td>quinterodar@hills.com</td>
+
+                    </tr>
+                    <tr>
+                        <td class="td_img"><img src="imgs/starEmpty.png" alt="documento"> </td>
+                        <td> El Jaguar </td>
+                        <td>Julio Furch</td>
+                        <td>8492310278</td>
+                        <td>furchjulio@jaguar.com</td>
+
+                    </tr>
+                </table>
+            </section>
+
+        </main>
+        
+        <section id="recordatorio">
+            <b>Simología</b>
+            <p>Las <img src="imgs/starfull.png" alt=""> represaentan a clientes con prioridad</p>
+        </section>
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
