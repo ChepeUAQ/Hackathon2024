@@ -1,0 +1,31 @@
+body{
+    background-color: blue;
+}
+.contenedorgeneral{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorusuario{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background-color: aqua;
+    margin-top: 50px;
+}
+.contenedorusuario img{
+    align-items: center;
+
+    justify-content: center;
+    margin: 40px 0;
+    padding: 30px;
+}
+.contenedorusuario button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
