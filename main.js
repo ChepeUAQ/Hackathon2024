@@ -217,6 +217,6 @@ clientesInput.addEventListener('keypress', (event) => {
 
         const boton =document.createElement('button')
         boton.innerText = 'Generar factura';
-        body.appendChild(boton);
+        contenido.appendChild(boton);
     }
 });
